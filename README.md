@@ -1,6 +1,6 @@
 # Color Wiki 配色百科
 
-繁體中文的靜態配色知識網站，以原生 HTML、CSS、JavaScript 與單一 JSON 資料來源建立。初始收錄 12 組原創配色，自然、復古、極簡、深色各 3 組。無框架、無套件、無外部 API、無資料庫，無須建置即可部署至 GitHub Pages。
+繁體中文的靜態配色知識網站，以原生 HTML、CSS、JavaScript 與單一 JSON 資料來源建立。目前收錄 15 組原創配色：自然 4 組、復古 3 組、極簡 4 組、深色 4 組，包含三組冬季靈感配色。無框架、無套件、無外部 API、無資料庫，無須建置即可部署至 GitHub Pages。
 
 ## 操作方法
 
@@ -28,7 +28,13 @@ python -m http.server 8000 --bind 127.0.0.1
 2. 在儲存庫 Settings → Pages，選擇從分支部署，設定主分支與根目錄。
 3. 儲存設定後，等待 GitHub 提供網站網址。網站所有檔案使用相對路徑，也適用於含儲存庫名稱的子目錄網址。
 
-本次交付未推送儲存庫或發布公開網站。
+本專案已發布至 GitHub Pages。
+
+- 公開 Repository：[p592288962-collab/color-wiki](https://github.com/p592288962-collab/color-wiki)
+- 網站：[Color Wiki 配色百科](https://p592288962-collab.github.io/color-wiki/)
+- 發布來源：Deploy from a branch → main → / (root)，使用 HTTPS。
+- 後續更新：修改或新增檔案並提交至 main，GitHub Pages 會重新部署；請在 Actions 確認部署成功後再驗證網站。
+- 部署方式依據 [GitHub 官方說明](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)。
 
 ## 專案檔案
 
@@ -56,10 +62,9 @@ previews/ 存放本次瀏覽器實際截圖，不是網站執行依賴。
 
 ## 原創配色索引
 
-- 自然：`moss-and-mist`、`tidal-postcard`、`apricot-orchard`
+- 自然：`moss-and-mist`、`tidal-postcard`、`apricot-orchard`、`frosted-pine`
 - 復古：`vinyl-afternoon`、`jade-cinema`、`plum-letterpress`
-- 極簡：`porcelain-notes`、`linen-studio`、`quiet-sage`
-- 深色：`midnight-observatory`、`ember-workshop`、`afterhours-garden`
+- 極簡：`porcelain-notes`、`linen-studio`、`quiet-sage`、`winter-wool`
+- 深色：`midnight-observatory`、`ember-workshop`、`afterhours-garden`、`polar-night-glow`
 
 這些配色與敘述是為本作業設計，沒有引用外部配色清單。視覺用途是建議情境；配色本身不保證任意前景、背景搭配皆符合文字對比要求。
-
