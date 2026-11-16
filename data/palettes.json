@@ -1,0 +1,278 @@
+{
+  "schemaVersion": 1,
+  "categories": [
+    {
+      "id": "nature",
+      "name": "自然"
+    },
+    {
+      "id": "retro",
+      "name": "復古"
+    },
+    {
+      "id": "minimal",
+      "name": "極簡"
+    },
+    {
+      "id": "dark",
+      "name": "深色"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "moss-and-mist",
+      "name": "苔森薄霧",
+      "category": "nature",
+      "description": "深苔綠與鼠尾草綠揉合霧白，讓森林的層次延伸至自然品牌包裝與植物圖鑑。",
+      "colors": [
+        "#294C41",
+        "#63856B",
+        "#B5C6A6",
+        "#EFF0E4"
+      ],
+      "tags": [
+        "森林",
+        "植物",
+        "沉靜"
+      ]
+    },
+    {
+      "id": "tidal-postcard",
+      "name": "潮汐明信片",
+      "category": "nature",
+      "description": "海灣藍、淺青與沙灘米色交錯，適合海邊旅行手冊與清爽的夏日活動視覺。",
+      "colors": [
+        "#245A71",
+        "#659FA8",
+        "#B9D8CF",
+        "#F2DFC2"
+      ],
+      "tags": [
+        "海洋",
+        "旅行",
+        "夏日"
+      ]
+    },
+    {
+      "id": "apricot-orchard",
+      "name": "杏園日光",
+      "category": "nature",
+      "description": "杏橙與柔黃映襯橄欖綠，如陽光落在果園，適合果醬標籤與農場市集海報。",
+      "colors": [
+        "#697548",
+        "#D89A61",
+        "#F0CE8E",
+        "#FAF0D9"
+      ],
+      "tags": [
+        "果園",
+        "溫暖",
+        "市集"
+      ]
+    },
+    {
+      "id": "vinyl-afternoon",
+      "name": "黑膠午後",
+      "category": "retro",
+      "description": "焦糖棕、磚紅與芥末黃帶出舊唱片封套的質感，適合音樂展覽與咖啡館菜單。",
+      "colors": [
+        "#5C4033",
+        "#AC5543",
+        "#CEAA54",
+        "#EDE0C5"
+      ],
+      "tags": [
+        "黑膠",
+        "咖啡",
+        "懷舊"
+      ]
+    },
+    {
+      "id": "jade-cinema",
+      "name": "翡翠老戲院",
+      "category": "retro",
+      "description": "墨玉綠對照暗珊瑚紅，以奶油白留出呼吸空間，適合復古電影節與劇場票券。",
+      "colors": [
+        "#285853",
+        "#71958A",
+        "#C57162",
+        "#F0E4CB"
+      ],
+      "tags": [
+        "戲院",
+        "海報",
+        "懷舊"
+      ]
+    },
+    {
+      "id": "plum-letterpress",
+      "name": "梅紫鉛印",
+      "category": "retro",
+      "description": "梅紫與灰粉像舊書頁上的油墨，配上紙張米白，適合文學刊物與書店活動文宣。",
+      "colors": [
+        "#614557",
+        "#9D7682",
+        "#CFA99C",
+        "#EEE1CD"
+      ],
+      "tags": [
+        "書店",
+        "紙感",
+        "文學"
+      ]
+    },
+    {
+      "id": "porcelain-notes",
+      "name": "白瓷筆記",
+      "category": "minimal",
+      "description": "暖白、淺灰與石墨色建立乾淨層次，少量霧藍作點綴，適合個人作品集與編輯版面。",
+      "colors": [
+        "#303A43",
+        "#8FA5B2",
+        "#D9DEDF",
+        "#F7F5EE"
+      ],
+      "tags": [
+        "留白",
+        "作品集",
+        "清爽"
+      ]
+    },
+    {
+      "id": "linen-studio",
+      "name": "亞麻工作室",
+      "category": "minimal",
+      "description": "炭灰、砂岩與亞麻白呈現材質之間的細微變化，適合陶藝品牌與居家選物型錄。",
+      "colors": [
+        "#494641",
+        "#A69A87",
+        "#D7CDBC",
+        "#F4F0E7"
+      ],
+      "tags": [
+        "亞麻",
+        "陶藝",
+        "中性色"
+      ]
+    },
+    {
+      "id": "quiet-sage",
+      "name": "一頁青灰",
+      "category": "minimal",
+      "description": "青灰與近白色組成低彩度基底，深綠用於標題與圖示，適合筆記工具與日常品牌識別。",
+      "colors": [
+        "#3E5650",
+        "#98ABA3",
+        "#D4DFD8",
+        "#F2F5F0"
+      ],
+      "tags": [
+        "低彩度",
+        "筆記",
+        "UI"
+      ]
+    },
+    {
+      "id": "midnight-observatory",
+      "name": "午夜觀測站",
+      "category": "dark",
+      "description": "深夜藍中加入星光紫與冷白，拉開深淺距離，適合天文主題插畫與深色儀表板。",
+      "colors": [
+        "#151D35",
+        "#34436A",
+        "#9A9BCD",
+        "#E1E5F2"
+      ],
+      "tags": [
+        "星空",
+        "科技",
+        "UI"
+      ]
+    },
+    {
+      "id": "ember-workshop",
+      "name": "餘燼工坊",
+      "category": "dark",
+      "description": "煤黑與深棕襯托銅橘及暖米色，像火光掠過金屬，適合工藝品牌與展覽主視覺。",
+      "colors": [
+        "#242326",
+        "#594139",
+        "#CE8960",
+        "#ECD4B8"
+      ],
+      "tags": [
+        "工藝",
+        "銅色",
+        "暖調"
+      ]
+    },
+    {
+      "id": "afterhours-garden",
+      "name": "夜行花園",
+      "category": "dark",
+      "description": "墨綠夜色中點入灰粉與薄荷綠，保留花葉的輪廓，適合夜間藝文活動與植物插畫。",
+      "colors": [
+        "#182F30",
+        "#3F6260",
+        "#A2C5B0",
+        "#D9B3BE"
+      ],
+      "tags": [
+        "夜色",
+        "花園",
+        "藝文"
+      ]
+    },
+    {
+      "id": "frosted-pine",
+      "name": "霜林晨雪",
+      "category": "nature",
+      "description": "松針綠、霧青與雪白描繪冬季清晨的霜林，適合山林旅行手冊與冬日植物主題包裝。",
+      "colors": [
+        "#334D46",
+        "#78958A",
+        "#B8CFCC",
+        "#F0F5F1"
+      ],
+      "tags": [
+        "冬季",
+        "霜雪",
+        "森林"
+      ]
+    },
+    {
+      "id": "winter-wool",
+      "name": "冬日羊毛",
+      "category": "minimal",
+      "description": "石板灰、冰藍灰與柔暖白呈現冬季羊毛織品的細緻層次，適合服飾型錄與簡約生活品牌版面。",
+      "colors": [
+        "#5B6470",
+        "#AEBBC6",
+        "#DCE4E9",
+        "#F6F5F0"
+      ],
+      "tags": [
+        "冬季",
+        "織品",
+        "低彩度"
+      ]
+    },
+    {
+      "id": "polar-night-glow",
+      "name": "極夜微光",
+      "category": "dark",
+      "description": "深海藍與冷青色襯托冰霧白，捕捉冬季極夜中的微光，適合極地攝影作品集與夜間活動海報。",
+      "colors": [
+        "#132B3A",
+        "#315D70",
+        "#8AB9BC",
+        "#DCE7E4"
+      ],
+      "tags": [
+        "冬季",
+        "極夜",
+        "冰光"
+      ]
+    }
+  ]
+}
