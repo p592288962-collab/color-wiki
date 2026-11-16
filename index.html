@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="探索自然、復古、極簡與深色配色。搜尋靈感，點擊色塊複製 HEX，為下一個作品找到色彩。">
+  <title>Color Wiki 配色百科</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#collection">跳至配色收藏</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="./index.html" aria-label="配色百科首頁"><span class="brand-mark" aria-hidden="true">◒</span> Color Wiki <span class="brand-caption">配色百科</span></a>
+      <a class="header-link" href="#collection">探索配色 <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+  <main class="container">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">給每個創作，一點色彩靈感</p>
+        <h1 id="hero-title">好配色，<br>讓靈感<span>開始發生。</span></h1>
+        <p class="hero-description">從自然風景到城市夜色，探索精選的色彩組合。<br>找到喜歡的配色，點一下，就帶進你的下一個作品。</p>
+        <div class="hero-note"><span aria-hidden="true">✦</span> 自由探索 · 一鍵複製 · 持續收錄</div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="art-caption">色彩的可能，從這裡展開。</div>
+        <div class="art-grid"><span></span><span></span><span></span><span></span></div>
+        <div class="art-footer"><span>靈感沒有標準答案</span><span>↗</span></div>
+      </div>
+    </section>
+    <section class="collection" id="collection" aria-labelledby="collection-title">
+      <div class="section-heading"><div><p class="eyebrow">你的色彩靈感庫</p><h2 id="collection-title">探索配色</h2></div><p class="collection-tip">點擊色塊，即可複製色碼 <span aria-hidden="true">↙</span></p></div>
+      <div class="toolbar">
+        <div id="categories" class="categories" role="group" aria-label="配色分類"></div>
+        <div class="search-wrap"><label class="sr-only" for="search">搜尋名稱、說明、標籤或分類</label><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="搜尋配色、風格或靈感…" autocomplete="off" disabled></div>
+      </div>
+      <p id="result-count" class="result-count" role="status" aria-live="polite">正在整理色彩靈感…</p>
+      <p id="state" class="state" role="status">配色載入中…</p>
+      <div id="palette-grid" class="palette-grid"></div>
+      <noscript><p class="state">請啟用 JavaScript，以載入配色、搜尋及複製色碼。</p></noscript>
+    </section>
+  </main>
+  <footer class="site-footer container"><span class="footer-brand">Color Wiki <span>配色百科</span></span><p>用色彩，收藏每一次靈感。</p><a href="#hero-title">回到頂端 ↑</a></footer>
+  <aside id="copy-feedback" class="copy-feedback" hidden aria-label="複製結果"><p id="copy-message" role="status" aria-live="polite"></p><label id="manual-label" for="manual-code" hidden>請選取下方色碼，手動複製：</label><input id="manual-code" readonly hidden><button id="dismiss-feedback" type="button" aria-label="關閉複製提示">關閉</button></aside>
+</body>
+</html>
